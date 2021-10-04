@@ -4,6 +4,7 @@ import {Context} from './../../index.js';
 
 
 const CreateDevice = ({show, onHide}) => {
+
     const {device} = useContext(Context);
     const [info, setInfo] = useState([]);
 
@@ -82,7 +83,7 @@ const CreateDevice = ({show, onHide}) => {
       </Modal.Body>
       <Modal.Footer>
         <Button variant={"outline-danger"} onClick={onHide}>Close</Button>
-        <Button variant={"outline-success"} onClick={onHide}>Close</Button>
+        <Button variant={"outline-success"} onClick={onHide}>Add</Button>
       </Modal.Footer>
     </Modal>
     )
