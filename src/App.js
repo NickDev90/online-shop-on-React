@@ -5,7 +5,7 @@ import NavBar from './components/NavBar.js'
 import './App.css';
 import { observer } from 'mobx-react-lite';
 import { Context } from './index.js';
-import { check } from './htttp/userAPI.js';
+import { check } from './http/userAPI.js';
 import { Spinner } from 'react-bootstrap';
 
 const App = observer( () => {

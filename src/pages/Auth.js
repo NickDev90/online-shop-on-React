@@ -4,7 +4,7 @@ import {Container, Card, Form, Button} from 'react-bootstrap';
 import {REGISTRATION_ROUTE, LOGIN_ROUTE, SHOP_ROUTE} from './../utils/consts.js';
 import {NavLink, useLocation, useHistory} from 'react-router-dom';
 import {Context} from './../index.js';
-import { login, registration } from '../htttp/userAPI.js';
+import { login, registration } from '../http/userAPI.js';
 
 
 
