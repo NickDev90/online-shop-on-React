@@ -4,9 +4,7 @@ import {makeAutoObservable} from 'mobx'
 export default class DeviceStore {
 	constructor () {
 		this._types = [];
-		this._brands = [
-
-		];
+		this._brands = [];
 		this._devices = [
 			{id:1, name: 'Iphone 12 pro', price: 3000, rating: 5, img: 'https://www.refurbed.pl/files/pi/iphone-12-pro-max-1607341850.jpg'},
 			{id:2, name: 'Iphone 12 pro', price: 3000, rating: 5, img: 'https://www.refurbed.pl/files/pi/iphone-12-pro-max-1607341850.jpg'},
